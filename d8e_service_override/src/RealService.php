@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \Drupal\d8e\RealService.
+ * Contains \Drupal\d8e_service_override\RealService.
  */
 
-namespace Drupal\d8e_real_service;
+namespace Drupal\d8e_service_override;
 
 class RealService implements ServiceOverrideInterface{
 

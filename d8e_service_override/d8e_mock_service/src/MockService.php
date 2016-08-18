@@ -7,7 +7,7 @@
 
 namespace Drupal\d8e_mock_service;
 
-use Drupal\d8e_real_service\ServiceOverrideInterface;
+use Drupal\d8e_service_override\ServiceOverrideInterface;
 
 class MockService implements ServiceOverrideInterface{
 

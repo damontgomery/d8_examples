@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\d8e_real_service;
+namespace Drupal\d8e_service_override;
 
 /**
  * Interface that service override services can implement.

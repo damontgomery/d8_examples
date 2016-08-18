@@ -2,19 +2,19 @@
 
 /**
  * @file
- * Contains \Drupal\d8e_real_service\Controller\ServiceOverrideController.
+ * Contains \Drupal\d8e_service_override\Controller\ServiceOverrideController.
  */
 
-namespace Drupal\d8e_real_service\Controller;
+namespace Drupal\d8e_service_override\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\d8e_real_service\ServiceOverrideInterface;
+use Drupal\d8e_service_override\ServiceOverrideInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class ServiceOverrideController extends ControllerBase {
 
   /**
-   * @var \Drupal\d8e_real_service\ServiceOverrideInterface
+   * @var \Drupal\d8e_service_override\ServiceOverrideInterface
    */
   protected $service;
 

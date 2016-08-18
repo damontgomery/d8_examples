@@ -1,3 +1,0 @@
-services:
-  d8e_service_override.real:
-    class: Drupal\d8e_real_service\RealService
