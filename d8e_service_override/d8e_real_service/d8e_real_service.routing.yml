@@ -1,0 +1,6 @@
+d8e_real_service:
+  path: 'd8e/service-override-demo'
+  defaults:
+    _controller: '\Drupal\d8e_real_service\Controller\ServiceOverrideController::demo'
+  requirements:
+    _access: 'TRUE'
