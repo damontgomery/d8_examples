@@ -5,19 +5,24 @@ default:
         - %paths.base%/features
       contexts:
         - Drupal\FeatureContext
-        - Drupal\DrupalExtension\Context\DrupalContext
+#        - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\DrushContext
   extensions:
     Behat\MinkExtension:
+      base_url: http://lightning.dev
       default_session: goutte
-      javascript_session: selenium2
       goutte: ~
-      files_path: "%paths.base%/media"
+      javascript_session: selenium2
+      browser_name: phantomjs
+      selenium2:
+        wd_host: http://127.0.0.1:4444/wd/hub
+        browser: chrome
     Drupal\DrupalExtension:
       blackbox: ~
-      api_driver: "drupal"
-    jarnaiz\JUnitFormatter\JUnitFormatterExtension:
-        filename: report.xml
-        outputDir: %paths.base%/build/tests
+      api_driver: 'drush'
+      drush:
+        alias: 'local.vm'
+#      drupal:
+#        drupal_root: '/var/www/lightning/docroot'
