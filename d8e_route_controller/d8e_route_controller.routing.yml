@@ -1,0 +1,6 @@
+d8e_route_controller:
+  path: 'd8e/route-controller-demo'
+  defaults:
+    _controller: '\Drupal\d8e_route_controller\Controller\DemoController::demo'
+  requirements:
+    _access: 'TRUE'

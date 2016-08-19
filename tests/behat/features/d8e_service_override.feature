@@ -1,5 +1,4 @@
-@javascript
-Feature: Default service
+Feature: Service Override
   In order to show that the default service is used
   As a user
   I need to check the output on the demo page
