@@ -1,0 +1,13 @@
+d8e_route_argument_text_demo:
+  path: 'd8e/route-argument-text-demo/{myArgument}'
+  defaults:
+    _controller: '\Drupal\d8e_route_argument\Controller\DemoController::textDemo'
+  requirements:
+    _access: 'TRUE'
+
+d8e_route_argument_user_demo:
+  path: 'd8e/route-argument-user-demo/{user}'
+  defaults:
+    _controller: '\Drupal\d8e_route_argument\Controller\DemoController::userDemo'
+  requirements:
+    _access: 'TRUE'
