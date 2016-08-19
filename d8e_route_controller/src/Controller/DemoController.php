@@ -6,11 +6,12 @@
  */
 
 namespace Drupal\d8e_route_controller\Controller;
+use Drupal\Core\Controller\ControllerBase;
 
 /**
  * Controller routines for page example routes.
  */
-class DemoController {
+class DemoController extends ControllerBase {
   /**
    * Constructs a simple page.
    *

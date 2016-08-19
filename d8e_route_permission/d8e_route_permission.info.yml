@@ -1,0 +1,5 @@
+name: 'Route and Permission Example'
+type: module
+description: 'An example module showing how to user permissions with a route.'
+package: 'd8_examples'
+core: 8.x
