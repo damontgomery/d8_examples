@@ -1,0 +1,6 @@
+d8e_route_permission:
+  path: 'd8e/route-permission-demo'
+  defaults:
+    _controller: '\Drupal\d8e_route_permission\Controller\DemoController::demo'
+  requirements:
+    _role: 'administrator'

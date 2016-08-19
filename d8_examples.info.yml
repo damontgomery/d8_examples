@@ -8,4 +8,6 @@ hidden: true
 
 dependencies:
   - d8e_route_controller:d8e_route_controller
+  - d8e_route_permission:d8e_route_permission
   - d8e_service_override:d8e_service_override
+
