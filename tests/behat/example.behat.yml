@@ -1,0 +1,10 @@
+imports:
+  - defaults.behat.yml
+
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://drupal.dev
+    Drupal\DrupalExtension:
+      drush:
+        alias: 'local.dev'

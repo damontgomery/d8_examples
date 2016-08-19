@@ -5,13 +5,12 @@ default:
         - %paths.base%/features
       contexts:
         - Drupal\FeatureContext
-#        - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\DrushContext
   extensions:
     Behat\MinkExtension:
-      base_url: http://lightning.dev
+      base_url: http://drupal.dev
       default_session: goutte
       goutte: ~
       javascript_session: selenium2
@@ -23,6 +22,4 @@ default:
       blackbox: ~
       api_driver: 'drush'
       drush:
-        alias: 'local.vm'
-#      drupal:
-#        drupal_root: '/var/www/lightning/docroot'
+        alias: 'local'
