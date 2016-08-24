@@ -1,0 +1,6 @@
+d8e_service:
+  path: 'd8e/service-demo'
+  defaults:
+    _controller: '\Drupal\d8e_service\Controller\ServiceController::demo'
+  requirements:
+    _access: 'TRUE'

@@ -11,4 +11,4 @@ dependencies:
   - d8e_route_permission:d8e_route_permission
   - d8e_route_argument:d8e_route_argument
   - d8e_service_override:d8e_service_override
-
+  - d8e_service:d8e_service
