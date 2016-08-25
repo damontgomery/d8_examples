@@ -6,4 +6,4 @@ Feature: Service Dependency Injection with Controllers
   Scenario: Demo page
     Given I am on "/d8e/service-dependency-injection/controller-demo"
     Then I should see the text "d8e Service Dependency Injection with Controller"
-    Then I should see the text "50 degrees C equals @122 dregress F"
+    Then I should see the text "50 degrees C equals 122 degrees F"

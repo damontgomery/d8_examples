@@ -42,7 +42,7 @@ class ServiceDIControllerController extends ControllerBase {
     $fahrenheit = $this->measurementConversion->celsiusToFahrenheit($celcius);
 
     return [
-      '#markup' => t('d8e Service Dependency Injection with Controller: @celcius degrees C equals @fahrenheit dregress F', ['@celcius' => $celcius, @fahrenheit => $fahrenheit])
+      '#markup' => $this->t('d8e Service Dependency Injection with Controller: @celcius degrees C equals @fahrenheit degrees F', ['@celcius' => $celcius, '@fahrenheit' => $fahrenheit])
     ];
   }
 }
