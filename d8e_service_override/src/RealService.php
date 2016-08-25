@@ -10,7 +10,7 @@ namespace Drupal\d8e_service_override;
 class RealService implements ServiceOverrideInterface{
 
   /**
-   * Return the value of the example variable.
+   * Return the name of this service.
    */
   public function getName() {
     return 'd8e Service Override: Real Service';

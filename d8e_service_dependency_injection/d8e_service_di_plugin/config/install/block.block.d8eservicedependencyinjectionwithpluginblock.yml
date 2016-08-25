@@ -1,0 +1,18 @@
+status: true
+dependencies:
+  module:
+    - d8e_service_di_plugin
+  theme:
+    - bartik
+id: d8eservicedependencyinjectionwithpluginblock
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: d8e_service_di_plugin_block
+settings:
+  id: d8e_service_di_plugin_block
+  label: 'd8e Service Dependency Injection with Plugin: Block'
+  provider: d8e_service_di_plugin
+  label_display: visible
+visibility: {  }

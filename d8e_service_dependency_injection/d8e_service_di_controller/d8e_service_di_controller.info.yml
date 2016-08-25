@@ -1,0 +1,9 @@
+name: 'Service Dependency Injection with Controllers'
+type: module
+description: 'An example module showing how to use a service in a controller.'
+package: 'd8_examples'
+core: 8.x
+
+dependencies:
+  - d8e_service_dependency_injection:d8e_service_dependency_injection
+
