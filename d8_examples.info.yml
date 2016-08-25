@@ -12,3 +12,6 @@ dependencies:
   - d8e_route_argument:d8e_route_argument
   - d8e_service_override:d8e_service_override
   - d8e_service:d8e_service
+  - d8e_service_di_controller:d8e_service_di_controller
+  - d8e_service_di_plugin:d8e_service_di_plugin
+  - d8e_service_di_service:d8e_service_di_service

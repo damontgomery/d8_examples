@@ -5,8 +5,3 @@ package: 'd8_examples'
 core: 8.x
 
 hidden: true
-
-dependencies:
-  - d8e_service_di_controller:d8e_service_di_controller
-  - d8e_service_di_plugin:d8e_service_di_plugin
-  - d8e_service_di_service:d8e_service_di_service

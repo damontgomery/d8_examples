@@ -1,0 +1,6 @@
+services:
+  d8e_service_di_service.demo:
+    class: Drupal\d8e_service_di_service\DemoService
+    # We can inject the measurementConversion service into this service.
+    # This service is defined in d8e_service_dependency_injection.services.yml in the parent module.
+    arguments: ['@d8e_service_dependency_injection.measurement_conversion']

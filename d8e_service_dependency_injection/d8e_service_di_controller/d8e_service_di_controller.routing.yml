@@ -1,0 +1,6 @@
+d8e_service_di_controller:
+  path: 'd8e/service-dependency-injection/controller-demo'
+  defaults:
+    _controller: '\Drupal\d8e_service_di_controller\Controller\ServiceDIControllerController::demo'
+  requirements:
+    _access: 'TRUE'
