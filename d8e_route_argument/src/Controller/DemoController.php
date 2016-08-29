@@ -27,7 +27,7 @@ class DemoController extends ControllerBase {
    */
   public function textDemo($myArgument) {
     return [
-      '#markup' => '<p>' . t('d8e Route & Argument Text Demo: @myArgument', ['@myArgument' => $myArgument]) . '</p>',
+      '#markup' => '<p>' . $this->t('d8e Route & Argument Text Demo: @myArgument', ['@myArgument' => $myArgument]) . '</p>',
     ];
   }
 
@@ -45,7 +45,7 @@ class DemoController extends ControllerBase {
    */
   public function userDemo(UserInterface $user) {
     return [
-      '#markup' => '<p>' . t('d8e Route & Argument User Demo: @user', ['@user' => $user->getDisplayName()]) . '</p>',
+      '#markup' => '<p>' . $this->t('d8e Route & Argument User Demo: @user', ['@user' => $user->getDisplayName()]) . '</p>',
     ];
   }
 }

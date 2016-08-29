@@ -22,7 +22,7 @@ class DemoController extends ControllerBase {
    */
   public function demo() {
     return [
-      '#markup' => '<p>' . t('d8e Route & Permission Demo') . '</p>',
+      '#markup' => '<p>' . $this->t('d8e Route & Permission Demo') . '</p>',
     ];
   }
 }

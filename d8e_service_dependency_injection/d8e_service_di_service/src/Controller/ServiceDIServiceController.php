@@ -40,7 +40,7 @@ class ServiceDIServiceController extends ControllerBase {
     $average_in_cm = $this->demoService->getAverageCM($samples, $units);
 
     return [
-      '#markup' => t('d8e Service Dependency Injection with a Service Demo: @average cm', ['@average' => $average_in_cm])
+      '#markup' => $this->t('d8e Service Dependency Injection with a Service Demo: @average cm', ['@average' => $average_in_cm])
     ];
   }
 }
