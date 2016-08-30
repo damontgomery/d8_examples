@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ *
+ * The following theme hook defines our element types used in this module.
+ * See src/Element/D8eNidsList.php for the implementation of this element.
+ * This uses the OOP approach for elements, but the only way to register them is
+ * with the theme hook.
+ */
+function d8e_entity_query_theme() {
+  $items = [
+    'd8e_nids_list' => [
+      'render element' => 'element',
+    ],
+  ];
+  return $items;
+}

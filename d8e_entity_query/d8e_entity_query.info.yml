@@ -1,0 +1,9 @@
+name: 'Entity Query Example'
+type: module
+description: 'An example module showing how to query entities.'
+package: 'd8_examples'
+core: 8.x
+
+dependencies:
+  - devel:devel
+  - devel:devel_node_generate

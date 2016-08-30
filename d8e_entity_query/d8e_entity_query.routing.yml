@@ -1,0 +1,18 @@
+d8e_entity_query.basic_query:
+  path: 'd8e/entity-query/basic-query-demo'
+  defaults:
+    _controller: '\Drupal\d8e_entity_query\Controller\DemoController::basicQueryDemo'
+  requirements:
+    _access: 'TRUE'
+d8e_entity_query.conditional_query:
+  path: 'd8e/entity-query/conditional-query-demo'
+  defaults:
+    _controller: '\Drupal\d8e_entity_query\Controller\DemoController::conditionalQueryDemo'
+  requirements:
+    _access: 'TRUE'
+d8e_entity_query.conditional_group_query:
+  path: 'd8e/entity-query/conditional-group-query-demo'
+  defaults:
+    _controller: '\Drupal\d8e_entity_query\Controller\DemoController::conditionalGroupQueryDemo'
+  requirements:
+    _access: 'TRUE'

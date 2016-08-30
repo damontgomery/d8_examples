@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Default theme implementation to d8e_nids_list element.
+ *
+ * Available variables:
+ * - element: Element that will be rendered.
+ * - element['#label'] : a label
+ * - element['#nids'] : a list of node ids
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="d8e-nids-list">
+  <span class="label">{{ element['#label'] }}</span>
+  {# We will wrap all of our node IDs in a div and add a comma in between. #}
+  {% for nid in element['#nids'] %}
+    <span class="d8e-nid">{{ nid }}{% if not loop.last %}, {% endif %}</span>
+  {# If there are no results, we will print a message along with a different element. #}
+  {% else %}
+    <span class="d8e-nids-empty">No NIDs</span>
+  {% endfor %}
+</div>

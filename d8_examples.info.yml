@@ -7,11 +7,12 @@ core: 8.x
 hidden: true
 
 dependencies:
-  - d8e_route_controller:d8e_route_controller
-  - d8e_route_permission:d8e_route_permission
-  - d8e_route_argument:d8e_route_argument
-  - d8e_service_override:d8e_service_override
-  - d8e_service:d8e_service
-  - d8e_service_di_controller:d8e_service_di_controller
-  - d8e_service_di_plugin:d8e_service_di_plugin
-  - d8e_service_di_service:d8e_service_di_service
+  - d8_examples:d8e_route_controller
+  - d8_examples:d8e_route_permission
+  - d8_examples:d8e_route_argument
+  - d8_examples:d8e_service_override
+  - d8_examples:d8e_service
+  - d8_examples:d8e_service_di_controller
+  - d8_examples:d8e_service_di_plugin
+  - d8_examples:d8e_service_di_service
+  - d8_examples:d8e_entity_query
