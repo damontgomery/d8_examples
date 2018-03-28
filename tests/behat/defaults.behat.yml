@@ -11,16 +11,9 @@ default:
         - Drupal\DrupalExtension\Context\DrushContext
   extensions:
     Behat\MinkExtension:
-      base_url: http://drupal.dev
       default_session: goutte
       goutte: ~
-      javascript_session: selenium2
-      browser_name: phantomjs
-      selenium2:
-        wd_host: http://127.0.0.1:4444/wd/hub
-        browser: chrome
+      selenium2: ~
     Drupal\DrupalExtension:
       blackbox: ~
       api_driver: 'drush'
-      drush:
-        alias: 'local'

@@ -1,4 +1,1 @@
-composer.lock
-vendor
-local.aliases.drushrc.php
 behat.yml
