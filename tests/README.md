@@ -45,7 +45,7 @@ Open a new terminal and run `lando behat --config=/app/docroot/modules/custom/d8
 # Running PhpUnit Tests
 
 ## With Lando
-With Lando, you can easily run Behat tests from this project.
+With Lando, you can easily run PhpUnit tests from this project.
 
 ### Installation
  This section of the readme will provide a few steps on getting PhpUnit working with Lando.
