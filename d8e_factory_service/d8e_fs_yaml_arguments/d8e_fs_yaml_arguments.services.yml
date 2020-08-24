@@ -1,0 +1,10 @@
+services:
+  d8e_fs_yaml_arguments.dan_motors:
+    class: Drupal\d8e_fs_yaml_arguments\Manufacturer
+    factory: ['Drupal\d8e_fs_yaml_arguments\ManufacturerFactory', 'createManufacturer']
+    arguments: ['Dan Motor Company']
+
+  d8e_fs_yaml_arguments.montgomery_motors:
+    class: Drupal\d8e_fs_yaml_arguments\Manufacturer
+    factory: ['Drupal\d8e_fs_yaml_arguments\ManufacturerFactory', 'createManufacturer']
+    arguments: ['Montgomery Motors']

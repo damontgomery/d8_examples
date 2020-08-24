@@ -1,0 +1,6 @@
+d8e_fs_yaml_arguments:
+  path: 'd8e/factory-service/yaml-arguments'
+  defaults:
+    _controller: '\Drupal\d8e_fs_yaml_arguments\Controller\FactoryServiceYamlArgumentsController::demo'
+  requirements:
+    _access: 'TRUE'
