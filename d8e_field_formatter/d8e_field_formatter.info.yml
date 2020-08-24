@@ -1,0 +1,6 @@
+name: 'Field Formatter Example'
+type: module
+description: 'An example module showing how to create a field formatter plugin.'
+package: 'd8_examples'
+core: 8.x
+core_version_requirement: ^8 || ^9
