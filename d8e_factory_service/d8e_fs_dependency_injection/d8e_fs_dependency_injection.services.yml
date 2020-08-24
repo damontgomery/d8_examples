@@ -1,0 +1,4 @@
+services:
+  d8e_fs_dependency_injection.vehicle_factory:
+    class: Drupal\d8e_fs_dependency_injection\VehicleFactory
+    arguments: ['@d8e_factory_service.painter']

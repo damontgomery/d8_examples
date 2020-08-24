@@ -1,0 +1,8 @@
+name: 'Drupal 8 Factory Service Examples'
+type: module
+description: 'A set of example modules that show how to make factory services.'
+package: 'd8_examples'
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+hidden: true

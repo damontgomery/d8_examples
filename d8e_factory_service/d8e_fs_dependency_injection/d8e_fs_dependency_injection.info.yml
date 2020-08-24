@@ -1,0 +1,9 @@
+name: 'Factory Service with Dependency Injection Example'
+type: module
+description: 'An example module showing how to create a factory service that injects dependencies.'
+package: 'd8_examples'
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  - d8e_factory_service:d8e_factory_service

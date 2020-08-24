@@ -1,0 +1,6 @@
+d8e_fs_dependency_injection:
+  path: 'd8e/factory-service/dependency-injection'
+  defaults:
+    _controller: '\Drupal\d8e_fs_dependency_injection\Controller\FactoryServiceDependencyInjectionController::demo'
+  requirements:
+    _access: 'TRUE'
