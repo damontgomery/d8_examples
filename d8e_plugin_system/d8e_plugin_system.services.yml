@@ -1,0 +1,4 @@
+services:
+  plugin.manager.d8e_animal:
+    class: Drupal\d8e_plugin_system\AnimalPluginManager
+    parent: default_plugin_manager

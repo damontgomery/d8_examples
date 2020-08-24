@@ -1,0 +1,6 @@
+d8e_plugin_system:
+  path: 'd8e/plugin-system'
+  defaults:
+    _controller: '\Drupal\d8e_plugin_system\Controller\PluginSystemExampleController::demo'
+  requirements:
+    _access: 'TRUE'
